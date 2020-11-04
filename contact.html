@@ -1,0 +1,110 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/sanitize.css">
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/contact.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <script src="https://kit.fontawesome.com/57521d8d6f.js" crossorigin="anonymous"></script>
+<title>Maiko Ingu's Portfolio</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+				<div class="header-inner animate__animated animate__fadeInDown" id="myHeader">
+					<nav class="header-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="works.html">Works</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="hamburger">
+						<i class="fas fa-hamburger fa-2x"></i>
+					</div>
+				</div>
+		</header>
+		
+		<main>
+			<h1>Contact Me!</h1>
+			<!-- normal form -->
+			<div class="mobile-form">
+				<form action="#" method="post">
+					<dl>
+						<div class="form-item">
+							<label>
+								<dt>お名前</dt>
+								<dd><input type="text" name="userName" required></dd>
+							</label>
+						</div>
+						<div class="form-item">
+							<label>
+								<dt>e-mail</dt>
+								<dd><input type="email" name="userEmail" required></dd>
+							</label>
+						</div>
+						<div class="form-item">
+							<dt>お問い合わせの種類</dt>
+							<dd>
+								<select name="messageType">
+								<option value="お仕事のご依頼" selected>お仕事のご依頼/ご相談</option>
+								<option value="私について">印具舞子についてご質問</option>
+								<option value="雑談">雑談</option>
+								<option value="その他">その他</option>
+								</select>
+							</dd>
+							
+						</div>
+						<div class="form-item">
+							<label>
+								<dt>お問い合わせ内容</dt>
+								<dd><textarea name="message" required></textarea></dd>
+							</label>
+						</div>
+					</dl>
+					<input type="submit" value="送信する">
+				</form>
+			</div>
+			<!-- envelope form -->
+			<div class="envelope" title="">
+				<div class="back"></div>
+				<form action="#" method="poost" class="letter">
+					<dl>
+							<label><dt>お名前</dt>
+							<dd><input type="text" name="userName" required></dd>
+							</label>
+							<label><dt>メールアドレス</dt>
+							<dd><input type="email" name="userEmail" required></dd>
+							</label>
+							<label><dt>メッセージ</dt>
+							<dd><textarea name="message" required></textarea></dd>
+							</label>
+					</dl>
+							<input type="submit" value="送信する">
+				</form>	
+			</div>
+		</main>
+		<footer>
+				<div class="footer-inner">
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="works.html">Works</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<img src="img/plant-footer.png" alt="">
+					<small>&copy;Maiko Ingu 2020.</small>
+				</div>
+		</footer>
+	</div><!-- /wrapper -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
